@@ -46,5 +46,12 @@ void main(){
   employee.clear();
   print(employee);
 
-
+  Set<String> students = {"An", "Bình", "Cường","Dũng", "An"};
+  print(students);
+  students.add("Hà");
+  students.add("Bình");
+  students.remove("Cường");
+  print(students.contains("An"));
+  print(students.contains("Minh"));
+  print("Danh sách cuối cùng: ${students}");
 }
