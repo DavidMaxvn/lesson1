@@ -25,10 +25,16 @@ class Manager extends Employee {
   //Dấu : là bắt đầu phần initializer list.
   //super(name, price): Gọi constructor của lớp cha.
 
-  void showDepartment(){
+  // void showDepartment(){
+  //   print("Phòng ban: $department");
+  // }
+
+  @override
+  void showInfo() {
+    print("Tên quản lý: $name");
+    print("Lương: $salary");
     print("Phòng ban: $department");
   }
-
   // void showAllInfo() {
   //   super.showInfo();
   //   print("Phòng ban: $department");
@@ -39,7 +45,7 @@ void main(){
   Manager manager = Manager("Nguyễn Văn An", 15000000, "IT");
 
   manager.showInfo();
-  manager.showDepartment();
+  // manager.showDepartment();
 
   // manager.showAllInfo();
 }
