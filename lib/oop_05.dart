@@ -28,6 +28,11 @@ class Manager extends Employee {
   void showDepartment(){
     print("Phòng ban: $department");
   }
+
+  // void showAllInfo() {
+  //   super.showInfo();
+  //   print("Phòng ban: $department");
+  // }
 }
 
 void main(){
@@ -35,4 +40,6 @@ void main(){
 
   manager.showInfo();
   manager.showDepartment();
+
+  // manager.showAllInfo();
 }
