@@ -1,3 +1,30 @@
+// class Product {
+//   String name;
+//   int quantity;
+//
+//   Product(this.name, this.quantity);
+//
+//   Product operator +(Product p) {
+//     return Product(
+//       name,
+//       this.quantity + p.quantity,
+//     );
+//   }
+//
+//   void showInfo() {
+//     print("Tên sản phẩm: $name");
+//     print("Số lượng: $quantity");
+//   }
+// }
+//
+// void main() {
+//   Product product1 = Product("Laptop", 10);
+//   Product product2 = Product("Laptop", 20);
+//
+//   Product product3 = product1 + product2;
+//
+//   product3.showInfo();
+// }
 
 class ShoppingCart {
   List<String> items;
